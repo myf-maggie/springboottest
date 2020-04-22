@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn" name="MyApp" packages="">
+
+    <Properties>
+        <Property name="logPath">/home/app/logs</Property>
+    </Properties>
+
+    <Appenders>
+        <RollingFile name="roll_appender" fileName="${sys:logPath}/log.log" filePattern="${sys:logPath}/log-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="[%date{yyyy-MM-dd HH:mm:ss.SSS}] [%p] [%thread] [%logger]   %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+        </RollingFile>
+        <Async name="Async" bufferSize="1024">
+            <AppenderRef ref="roll_appender"/>
+        </Async>
+
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%date{yyyy-MM-dd HH:mm:ss.SSS}] [%p] [%thread] [%logger]   %m%n" />
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <!--<Logger name="com.bhcredit" level="info" additivity="false">-->
+            <!--<AppenderRef ref="Async"/>-->
+        <!--</Logger>-->
+        <Root  level="info">
+            <AppenderRef ref="roll_appender"/>
+            <AppenderRef ref="console" />
+        </Root>
+    </Loggers>
+</Configuration>

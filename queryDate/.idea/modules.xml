@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/LoadAntifraudDatas.iml" filepath="E:/gitproject/bh_hotchpotch/LoadAntifraudDatas.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/file-load-utils/file-load-utils.iml" filepath="E:/gitproject/bh_hotchpotch/file-load-utils/file-load-utils.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadCredit/loadCredit.iml" filepath="E:/gitproject/bh_hotchpotch/loadCredit/loadCredit.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadCredit2/loadCredit2.iml" filepath="E:/gitproject/bh_hotchpotch/loadCredit2/loadCredit2.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadGaofa/loadGaofa.iml" filepath="E:/gitproject/bh_hotchpotch/loadGaofa/loadGaofa.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadOverdue/loadOverdue.iml" filepath="E:/gitproject/bh_hotchpotch/loadOverdue/loadOverdue.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadOverdueCustom/loadOverdue (1).iml" filepath="E:/gitproject/bh_hotchpotch/loadOverdueCustom/loadOverdue (1).iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadOverdueBacktrack/loadOverdueBacktrack.iml" filepath="E:/gitproject/bh_hotchpotch/loadOverdueBacktrack/loadOverdueBacktrack.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadOverdueCustom/loadOverdueCustom.iml" filepath="E:/gitproject/bh_hotchpotch/loadOverdueCustom/loadOverdueCustom.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadP2P/loadP2P.iml" filepath="E:/gitproject/bh_hotchpotch/loadP2P/loadP2P.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/loadTenant/loadTenant.iml" filepath="E:/gitproject/bh_hotchpotch/loadTenant/loadTenant.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/mapping/mapping.iml" filepath="E:/gitproject/bh_hotchpotch/mapping/mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/queryData.iml" filepath="$PROJECT_DIR$/queryData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springbootTest/sm3_md5.iml" filepath="$PROJECT_DIR$/../springbootTest/sm3_md5.iml" />
+      <module fileurl="file://E:/gitproject/bh_hotchpotch/userTest/userTest.iml" filepath="E:/gitproject/bh_hotchpotch/userTest/userTest.iml" />
+    </modules>
+  </component>
+</project>

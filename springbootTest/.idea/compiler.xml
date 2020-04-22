@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bh-report-input" />
+        <module name="file-load-utils" />
+        <module name="loadCredit" />
+        <module name="loadCredit2" />
+        <module name="loadGaofa" />
+        <module name="loadOverdue" />
+        <module name="loadOverdue (1)" />
+        <module name="loadOverdueBacktrack" />
+        <module name="loadP2P" />
+        <module name="loadTenant" />
+        <module name="mapping" />
+        <module name="springbootTest" />
+        <module name="userTest" />
+        <module name="weekly" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bh-anti-cassandra" target="1.8" />
+      <module name="bh-anti-util" target="1.8" />
+      <module name="bh-report-input" target="1.8" />
+      <module name="elasticsearchAgent" target="1.8" />
+      <module name="file-load-utils" target="1.8" />
+      <module name="hbcredit_antifraud_test" target="1.8" />
+      <module name="LoadAntifraudDatas" target="1.8" />
+      <module name="loadCredit" target="1.8" />
+      <module name="loadCredit2" target="1.8" />
+      <module name="loadGaofa" target="1.8" />
+      <module name="loadOverdue" target="1.8" />
+      <module name="loadOverdue (1)" target="1.8" />
+      <module name="loadOverdueBacktrack" target="1.8" />
+      <module name="loadOverdueRollBack" target="1.8" />
+      <module name="loadP2P" target="1.8" />
+      <module name="loadTenant" target="1.8" />
+      <module name="mapping" target="1.8" />
+      <module name="springbootTest" target="1.8" />
+      <module name="userTest" target="1.8" />
+      <module name="userTest (1)" target="1.8" />
+      <module name="weekly" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
